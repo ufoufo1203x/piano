@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Piano Playing Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Lessons</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Piano Playing Website</h1>
+      <div class="piano">
+        <div class="white-keys">
+          <div class="key" data-note="C"></div>
+          <div class="key" data-note="D"></div>
+          <div class="key" data-note="E"></div>
+          <div class="key" data-note="F"></div>
+          <div class="key" data-note="G"></div>
+          <div class="key" data-note="A"></div>
+          <div class="key" data-note="B"></div>
+          <div class="key" data-note="C2"></div>
+        </div>
+        <div class="black-keys">
+          <div class="key black" data-note="C#"></div>
+          <div class="key black" data-note="D#"></div>
+          <div class="key black"></div>
+          <div class="key black" data-note="F#"></div>
+          <div class="key black" data-note="G#"></div>
+          <div class="key black" data-note="A#"></div>
+          <div class="key black"></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Piano Playing Website. All rights reserved.</p>
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

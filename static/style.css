@@ -1,0 +1,90 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+/* Piano styles */
+.piano {
+  display: inline-block;
+}
+
+/* White key styles */
+.white-keys {
+  display: inline-block;
+  position: relative;
+}
+
+.white-keys .key {
+  width: 50px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: -1px;
+  cursor: pointer;
+}
+
+/* Black key styles */
+.black-keys {
+  position: absolute;
+  top: 100;
+  left: 27px;
+}
+
+.black-keys .key.black {
+  width: 50px;
+  height: 200px;
+  background-color: black;
+  position: absolute;
+  margin-top: -120px;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
